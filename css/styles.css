@@ -1,0 +1,109 @@
+.main{
+background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+/* background-position: center; */
+background-size:cover; 
+width:1180px;
+height:650px;
+color:white;
+text-align: center;
+padding: 190px 30px 30px;
+
+}
+.main>h1{
+    font-size:30px; 
+}
+.main>img{
+    font-style: normal;
+}
+.main>h2{
+    font-size:40px; 
+}
+.main>h3{
+    font-size: 16px;
+}
+.team{
+    margin: 4em 0;
+    position: relative;  
+   }
+   .team h1{
+    color:#F97300;
+    margin: 2em; 
+   }
+   .team .item{
+    position: relative;
+   }
+   .team .des{
+    background:white;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+   }
+  .name{
+    text-align: center;  
+  }
+  .nam{
+      background-image: url("/home/wecode/Documents/projeect/image/img2.jpg");
+      text-align: center;
+      color:white;
+      /* background-position: center; */
+      padding:110px 30px 50px;
+      width:1180px;
+      height:350px;
+      background-size: cover;
+    } 
+    .nam>h1{
+        font-size: 25px;
+        font-style: bold;
+    }
+    .number{
+        position: relative;
+        text-align: center;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      .lla{
+          background-image: url("/home/wecode/Documents/projeect/image/c_image.jpg");
+      background-size: cover;
+      text-align: center;
+    width: 1200px;
+    
+    /* height: 450px;; */
+      color: white;
+        }
+        .lla>h1{
+            color:white;
+
+        }
+      #fname{
+          background:transparent;
+          width:450px;
+          height: 40px;
+          padding-top: 0;
+      }
+    ::placeholder{
+ color:white;
+ display: flex;
+ align-items:flex-start;
+
+    } 
+    #pname{
+        background:transparent;
+        height:200px;
+        width: 800px;
+    }
+    .num{
+        display: flex;
+        flex-direction: row;
+    padding:10px 700px 80px;
+    text-align: center;
+    justify-content: space-between;
+
+
+    }
+    textarea[type="text"]{
+        margin-bottom: 3%;
+    }
