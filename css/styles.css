@@ -26,9 +26,9 @@ padding: 190px 30px 30px;
     position: relative;  
    }
    .team h1{
-    color:#F97300;
-    margin: 2em; 
-   }
+    color:rgb(12, 11, 11);
+    /* margin: 2em;  */
+}
    .team .item{
     position: relative;
    }
@@ -70,6 +70,7 @@ padding: 190px 30px 30px;
       background-size: cover;
       text-align: center;
     width: 1200px;
+    padding:1px 0px 10px 0px;
     
     /* height: 450px;; */
       color: white;
@@ -98,12 +99,14 @@ padding: 190px 30px 30px;
     .num{
         display: flex;
         flex-direction: row;
-    padding:10px 700px 80px;
+    padding:10px 600px 20px;
     text-align: center;
     justify-content: space-between;
-
-
     }
-    textarea[type="text"]{
-        margin-bottom: 3%;
-    }
+   /* .clickme{
+       margin-top: -50px;
+   } */
+p{
+    text-align: center;
+    font-size: 10px;
+}
