@@ -110,3 +110,6 @@ p{
     text-align: center;
     font-size: 10px;
 }
+#mell,#pell,#patt{
+    display:none;
+}
