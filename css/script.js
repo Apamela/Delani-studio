@@ -24,3 +24,7 @@ $(document).ready(function () {
         $("#patt").toggle();
     });
 });
+function message() {
+    alert("the massage")
+
+}
