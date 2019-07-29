@@ -23,11 +23,6 @@ $(document).ready(function () {
         $("#patte").toggle();
         $("#patt").toggle();
     });
-
-    // function message() {
-    //     alert("the massage")
-
-    // }
     $("#cena").mouseover(function () {
         $("#comp").show();
     });
@@ -76,4 +71,9 @@ $(document).ready(function () {
     $("#pop").mouseleave(function () {
         $("#lli").hide();
     });
+    $("$yes").click(function(message){
+var name=("#fname").val();
+var email=("#fname").val();
+    })
+    
 });

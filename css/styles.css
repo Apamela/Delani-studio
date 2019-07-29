@@ -1,6 +1,5 @@
 .main{
 background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
-/* background-position: center; */
 background-size:cover; 
 width:1180px;
 height:650px;
@@ -27,14 +26,12 @@ padding: 190px 30px 30px;
    }
    .team h1{
     color:rgb(12, 11, 11);
-    /* margin: 2em;  */
 }
    .team .item{
     position: relative;
    }
    .team {
     background:white;
-    /* color: #fff; */
     text-align: center;
     border-bottom-left-radius: 93%;
     transition:.3s ease-in-out;
@@ -46,7 +43,6 @@ padding: 190px 30px 30px;
       background-image: url("/home/wecode/Documents/projeect/image/img2.jpg");
       text-align: center;
       color:white;
-      /* background-position: center; */
       padding:110px 30px 50px;
       width:1180px;
       height:350px;
@@ -71,8 +67,7 @@ padding: 190px 30px 30px;
       text-align: center;
     width: 1200px;
     padding:1px 0px 10px 0px;
-    
-    /* height: 450px;; */
+    margin-top: 30px;
       color: white;
         }
         .lla>h1{
@@ -104,9 +99,7 @@ padding: 190px 30px 30px;
     text-align: center;
     justify-content: space-between;
     }
-   /* .clickme{
-       margin-top: -50px;
-   } */
+  
 p{
     text-align: center;
     font-size: 10px;
@@ -120,4 +113,11 @@ p{
 }
 img{
     margin-top: 30px;
+}
+#comp,#kell,#mim,#mom,#receive,#send,#oll,#lli{
+    display:none;
+    margin-top: -150px;
+    font-size: 50px;
+    font-style: oblique;
+color:blueviolet;
 }
