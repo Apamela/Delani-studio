@@ -28,6 +28,9 @@ $(document).ready(function () {
 //     alert("the massage")
 
 // }
-$(".img-fluid").mouseover(function(){
-    
-})
+$("#cena").mouseover(function () {
+    $("#comp").show();
+});
+$("#cena").mouseleave(function () {
+    $("#comp").hide();
+});
