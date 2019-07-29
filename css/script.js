@@ -24,7 +24,10 @@ $(document).ready(function () {
         $("#patt").toggle();
     });
 });
-function message() {
-    alert("the massage")
+// function message() {
+//     alert("the massage")
 
-}
+// }
+$(".img-fluid").mouseover(function(){
+    
+})
