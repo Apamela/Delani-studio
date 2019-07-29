@@ -77,6 +77,7 @@ padding: 190px 30px 30px;
         }
         .lla>h1{
             color:white;
+            font-size: 20px;
 
         }
       #fname{
@@ -112,4 +113,8 @@ p{
 }
 #mell,#pell,#patt{
     display:none;
+}
+.col-lg-3 :hover {
+    background-color: white;
+    opacity:0.5;
 }
