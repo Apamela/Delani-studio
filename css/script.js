@@ -71,9 +71,17 @@ $(document).ready(function () {
     $("#pop").mouseleave(function () {
         $("#lli").hide();
     });
-    $("$yes").click(function(message){
-var name=("#fname").val();
-var email=("#fname").val();
-    })
-    
+    $("#yes").click(function () {
+        var name = ("#fname").val();
+        var email = ("#fname").val();
+        var message = ("#pname").val();
+        if (name == "" || email == "" || message == "") {
+            alert("you have to fill this requirement!");
+        }
+        else {
+            alert(name + "we have received your message".thank);
+        }
+
+    });
+
 });

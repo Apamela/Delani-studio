@@ -5,7 +5,7 @@ width:1180px;
 height:650px;
 color:white;
 text-align: center;
-padding: 190px 30px 30px;
+padding: 170px 30px 30px;
 
 }
 .main>h1{
@@ -22,7 +22,7 @@ padding: 190px 30px 30px;
 }
 .team{
     margin: 4em 0;
-    position: relative;  
+      
    }
    .team h1{
     color:rgb(12, 11, 11);
