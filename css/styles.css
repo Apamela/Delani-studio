@@ -75,7 +75,7 @@ padding: 170px 30px 30px;
             font-size: 20px;
 
         }
-      #fname{
+      #fname,#email{
           background:transparent;
           width:450px;
           height: 40px;

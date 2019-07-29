@@ -71,17 +71,14 @@ $(document).ready(function () {
     $("#pop").mouseleave(function () {
         $("#lli").hide();
     });
-    $("#yes").click(function () {
-        var name = ("#fname").val();
-        var email = ("#fname").val();
-        var message = ("#pname").val();
-        if (name == "" || email == "" || message == "") {
-            alert("you have to fill this requirement!");
-        }
-        else {
-            alert(name + "we have received your message".thank);
-        }
+    $("form").submit(function (event) {
+        var name = $("#fname").val();
+        var emails = $("#email").val();
+        var message = $("#pname").val();
+
+        alert(name + "we have received your message");
+
+        event.preventDefault();
 
     });
-
 });
